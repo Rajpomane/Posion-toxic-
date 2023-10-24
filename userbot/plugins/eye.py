@@ -1,4 +1,4 @@
-"""COMMAND : .eye"""
+"""COMMAND : .poison"""
 
 from telethon import events
 
@@ -8,7 +8,7 @@ from userbot.utils import admin_cmd
 
 
 
-@borg.on(admin_cmd(pattern="eye"))
+@borg.on(admin_cmd(pattern="poison"))
 
 async def _(event):
 
@@ -22,22 +22,23 @@ async def _(event):
 
     #input_str = event.pattern_match.group(1)
 
-    #if input_str == "eye":
+    #if input_str == "poison":
 
-    await event.edit("👁👁")
+    await event.edit("🚩🚩")
 
     animation_chars = [
 
-            "👁👁\n  👄  =====> Abey Ja Na Gandu",
-            "👁👁\n  👅  =====> Abey Ja Na Madarchod",    
-            "👁👁\n  💋  =====> Abey Ja Na Randi",
-            "👁👁\n  👄  =====> Abey Ja Na Betichod",
-            "👁👁\n  👅  =====> Abey Ja Na Behenchod",    
-            "👁👁\n  💋  =====> Abey Ja Na Na Mard",
-            "👁👁\n  👄  =====> Abey Ja Na Randi",
-            "👁👁\n  👅  =====> Abey Ja Na Bhosdk",    
-            "👁👁\n  💋  =====> Abey Ja Na Chutiye",
-            "👁👁\n  👄  =====> Hi All, How Are You Guys..."
+            "🚩🚩\n  🔥❤️  =====> MULLO TUMHARI MAA KA BHOSDA",
+            "🚩🚩\n  🔥❤️  =====> MULLO KI MAA KI CUUTTTTTTTTTT",    
+            "🚩🚩\n  🔥❤️  =====> LAND LAND MULLE",
+            "🚩🚩\n  🔥❤️  =====> LAND LAND ISLAM ",
+            "🚩🚩\n  🔥❤️  =====> MULLO KI MAA KI CHUT ME HCL HAHAA",    
+            "🚩🚩\n  🔥❤️  =====> MULLO KI MAA KE BHOSDE ME TV",
+            "🚩🚩\n  🔥❤️  =====> MULLO KI BHAN KA BHOSDA HAHA",
+            "🚩🚩\n  🔥❤️  =====> BURKHA UTAR KE GAND MAR DUNGA HAHA",    
+            "🚩🚩\n  🔥❤️  =====> LAND PE MULLE LAND PE ISLAM ",
+            "🚩🚩\n  🔥❤️  =====> MADE BY POISON ❤️💫 JAI SHREE RAM HAR HAR MAHADEV 🚩🔥❤️"
+            "🚩🚩\n  🔥❤️  =====> COME BACK BABY 🖤🥂 DANGEROUS ALWAYS OP 🚩🔥❤️"
         ]
 
     for i in animation_ttl:
