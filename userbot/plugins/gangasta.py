@@ -5,7 +5,7 @@ import asyncio
 
 
 
-@borg.on(admin_cmd("gangasta ?(.*)"))
+@borg.on(admin_cmd("poison_toxic ?(.*)"))
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         await event.edit("EVERyBOdy")
@@ -23,3 +23,4 @@ async def _(event):
         await event.edit("🔥🔥🔥")
         await asyncio.sleep(0.3)
         await event.edit("EVERyBOdy iZ GangSTur UNtIL I ArRivE 🔥🔥🔥")
+        await event.edit("POISON TOXIC DO DIL EK JAAN 🔥❤️ JAI SHREE RAM 🚩🔥 HAR HAR MAHADEV 🚩❤️🥂")
