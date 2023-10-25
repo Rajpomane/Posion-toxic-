@@ -34,7 +34,7 @@ async def _(event):
               response2 = await response2 
               response3= await response3 
           except YouBlockedUserError: 
-              await event.reply("Please unblock ( @SangMata_beta_bot ) ")
+              await event.reply("Please unblock (@SangMata_beta_bot) ")
               return
           if response1.text.startswith("No records found"):
              await event.edit("User never changed his Username...")
