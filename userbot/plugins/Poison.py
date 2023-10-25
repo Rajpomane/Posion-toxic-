@@ -20,24 +20,24 @@ async def _(event):
    # if input_str == "ok":
     await event.edit("ok")
     animation_chars = [
-            "OK",
-            "BOSS",
-            "OK MAN",
-            "OK BITCH",
-            "OK FUKCER",
-            "OK SEXY BABE",
-            "OK GAY",
+            "thik he bhai",
+            "ok bhai ",
+            "ha samj gaya bhai",
+            "ha bhai thik he",
+            "ok sir bhai",
+            "poison",
+            "ha thik he chalo",
             "OK SIR",
-            "GO AND SAY OK",
-            "OK LOL",
-            "YAA OK",
-            "FCUK",
-            "OK",
-            "Boss",
-            "Yeahhhhhh",
-            "O",
-            "K",
-            "Ok Boss! 😇"
+            "💫🥂🥂🥂🥂",
+            "🖤🖤🖤🖤",
+            "❤️❤️❤️❤️",
+            "🧡🧡🧡🧡",
+            "💚💚💚💚",
+            "🖤🖤🖤🖤",
+            "🖤🖤poison🖤🖤",
+            "🖤🖤",
+            "🖤🖤🖤",
+            "🖤🖤🖤❤️❤️❤️"
         ]
 
     for i in animation_ttl:
