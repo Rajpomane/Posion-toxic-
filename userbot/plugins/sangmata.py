@@ -17,12 +17,12 @@ async def _(event):
        await event.edit("Reply to any user message.")
        return
     reply_message = await event.get_reply_message() 
-    chat = "@SangMata_beta_bot"
+    chat = ""
     sender = reply_message.sender.id
     if reply_message.sender.bot:
        await event.edit("Reply to actual users message.")
        return
-    await event.edit("poison❤️💫.......")
+    await event.edit("processing.......")
     async with event.client.conversation(chat) as conv:
           try:     
               #await conv.send_message("/search_id {}".format(sender))
