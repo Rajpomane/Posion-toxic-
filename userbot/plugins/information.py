@@ -69,7 +69,7 @@ async def _(event):
         replied_user.user.restricted,
         replied_user.user.verified,
         replied_user.user.bot,
-        common_chats
+        common_chats.user
         replied_user.user.mobilenumber,
     )
     message_id_to_reply = event.message.reply_to_msg_id
