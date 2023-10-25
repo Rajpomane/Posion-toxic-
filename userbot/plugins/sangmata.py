@@ -22,7 +22,7 @@ async def _(event):
     if reply_message.sender.bot:
        await event.edit("Reply to actual users message.")
        return
-    await event.edit("Checking...")
+    await event.edit("poison❤️💫.......")
     async with event.client.conversation(chat) as conv:
           try:     
               #await conv.send_message("/search_id {}".format(sender))
@@ -34,7 +34,7 @@ async def _(event):
               response2 = await response2 
               response3= await response3 
           except YouBlockedUserError: 
-              await event.reply("Please unblock ( @Sangmatainfo_bot ) ")
+              await event.reply("Please unblock ( @SangMata_beta_bot ) ")
               return
           if response1.text.startswith("No records found"):
              await event.edit("User never changed his Username...")
