@@ -1,4 +1,4 @@
-"""COMMAND : .poison"""
+"""COMMAND : .poisonn"""
 
 from telethon import events
 
